@@ -1,7 +1,7 @@
 [submodule "themes/hugo-theme-cleanwhite"]
 	path = themes/hugo-theme-cleanwhite
 	url = https://github.com/zhaohuabing/hugo-theme-cleanwhite.git
-[submodule "yoshitani.github.io"]
+[submodule "pablic"]
 	path = pablic
 	url = https://github.com/yoshitani/yoshitani.github.io
 	branch = master
