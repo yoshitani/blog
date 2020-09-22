@@ -16,7 +16,7 @@ home = ["HTML", "RSS", "Algolia"]
   header_image = "img/dinasour.jpg"
   SEOTitle = "Yosy Blog"
   description = "Yu Yoshitani"
-  keyword = "OpenCV, Python, k8s, Docker, AWS, FastAPI"
+  keyword = "OpenCV, Python, Docker, AWS, FastAPI"
   slogan = "楽しく挑戦"
 
   image_404 = ""
