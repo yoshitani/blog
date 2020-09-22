@@ -102,10 +102,6 @@
                     
                         
                         <li>
-                            <a href="/categories/life">life</a>
-                        </li>
-                        
-                        <li>
                             <a href="/categories/tech">tech</a>
                         </li>
                         
@@ -291,18 +287,18 @@
 <hr>
 
 <div class="post-preview">
-    <a href="https://yosy_blog.com/2018/05/22/user_authentication_authorization/">
+    <a href="https://yosy_blog.com/2018/05/23/istio-auto-injection-with-webhook/">
         <h2 class="post-title">
-            微服务安全沉思录之一
+            Istio Sidecar自动注入原理
         </h2>
 	
         <h3 class="post-subtitle">
-            用户访问认证与鉴权
+            Kubernetes webhook扩展机制解析
         </h3>
 	
         <div class="post-content-preview">
 	
-            这段时间对之前微服务安全相关的一些想法进行了进一步总结和归纳，理清在之前文章里面没有想得太清楚的地方，例如服务间的认证与鉴权以及用户身份在服务调用链中的传递。在这一系列博客里面将分为三个部分对微服务安全进行系统阐述：用户访问认证与鉴权，服务间认证与鉴权，外部系统访问控制。
+            Kubernets 1.9版本引入了Admission Webhook(web 回调)扩展机制，通过Webhook,开发者可以非常灵活地对Kubernets API Server的功能进行扩展，在API Server创建资源时对资源进行验证或者修改。 Istio 0.7版本就利用了Kubernets webhook实现了sidecar的自动注入。
         
         </div>
     </a>
@@ -318,15 +314,6 @@
 
             
 
-
-<ul class="pager">
-    
-    
-    <li class="next">
-        <a href="/categories/tech/page/2/">Older Posts &rarr;</a>
-    </li>
-    
-</ul>
 
 
        	</div>
@@ -348,25 +335,11 @@
              
             
                 
-            
-                
-                    <a href="/tags/docker" title="docker">
-                        docker
-                    </a>
-                
-            
-                
-            
-                
                     <a href="/tags/istio" title="istio">
                         istio
                     </a>
                 
             
-                
-                    <a href="/tags/kubernetes" title="kubernetes">
-                        kubernetes
-                    </a>
                 
             
                 
@@ -376,27 +349,9 @@
                 
             
                 
-            
-                
                     <a href="/tags/security" title="security">
                         security
                     </a>
-                
-            
-                
-                    <a href="/tags/service-mesh" title="service-mesh">
-                        service-mesh
-                    </a>
-                
-            
-                
-                    <a href="/tags/tips" title="tips">
-                        tips
-                    </a>
-                
-            
-                
-            
                 
             
                 
