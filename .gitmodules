@@ -5,3 +5,7 @@
 	path = blog
 	url = https://github.com/yoshitani/blog
 	branch = master
+[submodule "yoshitani.github.io"]
+	path = yoshitani.github.io
+	url = https://github.com/yoshitani/yoshitani.github.io
+	branch = master
