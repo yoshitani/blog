@@ -1,4 +1,4 @@
-baseurl = "https://yosy_blog.com"
+baseurl = "https://yoshitani.github.io/blog"
 title = "Yosy Blog"
 theme = "hugo-theme-cleanwhite"
 languageCode = "ja-jp"
@@ -13,7 +13,7 @@ hasCJKLanguage = true
 home = ["HTML", "RSS", "Algolia"]
 
 [params]
-  header_image = "/Users/yoshitaniyu/noble_hobby/blog/img/dinasour.jpg"
+  header_image = "img/dinasour.jpg"
   SEOTitle = "Yosy Blog"
   description = "Yu Yoshitani"
   keyword = "OpenCV, Python, k8s, Docker, AWS, FastAPI"
@@ -36,7 +36,7 @@ home = ["HTML", "RSS", "Algolia"]
 
   # Sidebar settings
   sidebar_about_description = "大学院生, 画像認識エンジニア, Python学習コンテンツ作成"
-  sidebar_avatar = "blog/img/jibun.jpg"
+  sidebar_avatar = "img/jibun.jpg"
 
   featured_tags = true 
   featured_condition_size = 1 
